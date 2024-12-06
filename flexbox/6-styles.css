@@ -201,6 +201,7 @@ ul.row {
 }
 
 .nav .nav-item {
+  /* Removed display declaration */
 }
 
 .nav .nav-item + .nav-item {
