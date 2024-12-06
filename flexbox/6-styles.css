@@ -197,7 +197,7 @@ ul.row {
 }
 
 /* Navbar section */
-nav {
+.nav {
   display: flex;
 }
 
@@ -205,7 +205,7 @@ nav {
   /* Removed display declaration, margin should not be here */
 }
 
-nav .nav-item + .nav-item {
+.nav .nav-item + .nav-item {
   margin: 0 0 0 2rem; /* Moved margin to this selector */
 }
 
