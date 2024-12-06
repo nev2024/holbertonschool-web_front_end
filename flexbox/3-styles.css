@@ -373,6 +373,24 @@ ul.row {
   flex-wrap: wrap;
 }
 
+/* Flexbox Styles */
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background-color: #f4f4f4;
+}
+
 /*** 4. CARD ***/
 
 /* Card (all styles)
