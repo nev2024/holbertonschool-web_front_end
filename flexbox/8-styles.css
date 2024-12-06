@@ -5,5 +5,4 @@
   align-items: flex-start;
   justify-content: center;
   min-height: 50vh;
-  padding: 0; /* Remove the previous padding declaration */
 }
