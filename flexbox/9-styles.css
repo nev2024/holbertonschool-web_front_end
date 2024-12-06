@@ -1,0 +1,4 @@
+/* Section ABOUT US section */
+.section-about-us [class^="col-"] {
+  align-self: center;
+}
