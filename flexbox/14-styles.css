@@ -1,0 +1,36 @@
+/* Social Icons Styling */
+.social-nav {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-nav li {
+  display: inline;
+}
+
+.social-nav .social-icon {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.social-nav .social-facebook {
+  background-color: #3b5998;
+}
+
+.social-nav .social-twitter {
+  background-color: #1da1f2;
+}
+
+.social-nav .social-linkedin {
+  background-color: #0077b5;
+}
+
+.social-nav .social-pinterest {
+  background-color: #bd081c;
+}
