@@ -40,4 +40,3 @@
 .tag-list li:last-child::after {
   content: ""; /* No comma after the last item */
 }
-dasdasdas
