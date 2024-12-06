@@ -1,6 +1,6 @@
-/* Post Meta
-    ============================= */
+/* Post Meta Styles */
 .post-meta-list {
+  display: flex;
   flex-direction: column;
 }
 
@@ -22,8 +22,7 @@
   margin-bottom: 3rem;
 }
 
-/* Tag list
-      ============================= */
+/* Tag List Styles */
 .tag-list {
   padding: 0;
   list-style: none;
@@ -38,5 +37,5 @@
 }
 
 .tag-list li:last-child::after {
-  content: ""; /* No comma after the last item */
+  content: ""; /* Remove comma after the last item */
 }
