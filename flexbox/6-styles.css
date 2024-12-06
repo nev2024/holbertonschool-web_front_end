@@ -1,0 +1,17 @@
+/* Navbar section */
+nav {
+  display: flex;
+}
+
+.nav .nav-item {
+  /* Removed display declaration */
+}
+
+nav .nav-item + .nav-item {
+  margin: 0 0 0 2rem; /* Moved margin here */
+}
+
+/* Variables section - Change value of nav-item-margin */
+:root {
+  --nav-item-margin: 0 0 0 2rem;
+}
