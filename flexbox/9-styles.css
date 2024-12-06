@@ -1,8 +1,6 @@
 /* Section SERVICES ============================= */
-.section-services {
-}
 
 /* Section ABOUT US section */
-.section-about-us [class^="col-"] {
+.section-about-us .col- {
   align-self: center;
 }
