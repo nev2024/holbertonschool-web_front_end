@@ -374,10 +374,14 @@ ul.row {
 }
 
 /* Section ABOUT US section */
-.section-about-us .col- {
-  align-self: center;
+.section-about-us {
+  display: flex;
+  flex-wrap: wrap; /* Optional */
 }
 
+.section-about-us [class^="col-"] {
+  align-self: center;
+}
 /* Flexbox Styles */
 .services {
   display: flex;
