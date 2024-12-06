@@ -1,4 +1,4 @@
-/* Post Meta Styles */
+/* Post Meta Separator */
 .post-meta-list {
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
   margin-bottom: 3rem;
 }
 
-/* Tag List Styles */
+/* Tag List Separator */
 .tag-list {
   padding: 0;
   list-style: none;
