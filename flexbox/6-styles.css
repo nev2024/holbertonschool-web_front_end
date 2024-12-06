@@ -196,16 +196,17 @@ ul.row {
 .navbar-menu {
 }
 
-.nav {
+/* Navbar section */
+nav {
   display: flex;
 }
 
 .nav .nav-item {
-  /* Removed display declaration */
+  /* Removed display declaration, margin should not be here */
 }
 
-.nav .nav-item + .nav-item {
-  margin: 0 0 0 2rem; /* Moved margin here */
+nav .nav-item + .nav-item {
+  margin: 0 0 0 2rem; /* Moved margin to this selector */
 }
 
 .nav .nav-link {
