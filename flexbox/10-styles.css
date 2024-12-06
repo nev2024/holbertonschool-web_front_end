@@ -1,10 +1,5 @@
 /* Section HERO ============================ */
 
-.section-hero {
-  position: relative;
-  margin-top: -8.5rem;
-}
-
 .hero-homepage {
   display: flex;
   flex-direction: column;
@@ -12,7 +7,12 @@
   justify-content: center;
   min-height: 50vh;
   padding: 0 1rem;
-  /* Moved all other styles from section-hero here */
+
+  /* New background styles */
+  background-color: #f0f0f0; /* Set the background color (adjust the color as per your design) */
+  background-position: center; /* Position the background image */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+  background-size: cover; /* Make the background image cover the entire area */
 }
 
 /* Section BODY inside section-hero */
@@ -22,8 +22,6 @@
 
 /* Section CATEGORY inside section-hero */
 .section-hero .section-category {
-  color: var(
-    --color-white
-  ); /* Assuming color-white is defined in your variables */
+  color: var(--color-white);
   text-transform: uppercase;
 }
