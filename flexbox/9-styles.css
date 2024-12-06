@@ -1,13 +1,5 @@
 /* Section SERVICES ============================= */
 .section-services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.section-services .service-item {
-  width: calc(33.333% - 2rem);
-  margin: 1rem;
 }
 
 /* Section ABOUT US section */
